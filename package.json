@@ -1,0 +1,15 @@
+{
+  "name": "web_chat",
+  "version": "1.0.0",
+  "description": "Онлайн чат на: Node JS, WebSocket + Native JS, HTML, CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
