@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rimraf": "^3.0.2"
+    "config": "^3.3.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "jsonfile": "^6.1.0",
+    "ws": "^8.5.0"
   }
 }
