@@ -1,16 +1,15 @@
 {
-  "name": "Chat",
+  "name": "web_chat",
   "version": "1.0.0",
-  "description": "",
+  "description": "Онлайн чат на: Node JS, WebSocket + Native JS, HTML, CSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "config": "^3.3.7",
-    "ws": "^8.5.0"
+    "rimraf": "^3.0.2"
   }
 }
