@@ -4,12 +4,28 @@
   "description": "Онлайн чат на: Node JS, WebSocket + Native JS, HTML, CSS",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "dev": "nodemon index",
+    "dev_server": "nodemon server",
+    "gulp": "gulp watch",
+    "gulp_build": "gulp scss",
+    "start": "node index",
+    "start_server": "node server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rimraf": "^3.0.2"
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "express-pug": "^1.0.0",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2",
+    "rimraf": "^3.0.2",
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0"
   }
 }

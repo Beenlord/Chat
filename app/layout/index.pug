@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+    include ../template/includes/head
+    body(class=`${title}`) 
+        block content
+        block header 
+        block footer 
+        
+        include ../template/includes/foot
+
+        block scripts

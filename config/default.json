@@ -1,0 +1,18 @@
+{
+    "app": {
+        "connection": {
+            "host": "192.168.0.20",
+            "port": "80"
+        }
+    },
+    "server": {
+        
+    },
+    "gulp": {
+        "server": "./app/assets",
+        "sass": {
+            "from": "app/assets/stylesheet/scss/style.scss",
+            "to": "app/assets/stylesheet/"
+        }
+    }
+}

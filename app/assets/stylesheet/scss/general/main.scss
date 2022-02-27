@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --font-size: calc( (100vw - 1920px)/(1920 - 1080) * (20 - 10) + 10px);;
+}
+
+html {
+    font-size: var(--font-size);
+    font-family: 'OpenSans', Courier, monospace;
+}
+
